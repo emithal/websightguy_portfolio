@@ -91,10 +91,15 @@ body {
       border-right: 1px solid #e1f1ff;
       flex-basis: 100%;
       padding: 25px 50px;
-    }
-  
+    }  
     .pricing-plan:last-child {
       border-right: none;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .pricing-plan {
+      margin-bottom: 20px;
     }
   }
   
@@ -110,8 +115,6 @@ body {
     text-align: center;
     font-size: 1.8rem;
   }
-
-  .top-buffer { margin-top:40px; }
   
   .pricing-features {
     color: white;
@@ -855,6 +858,9 @@ pre {
 @media (min-width: 576px) {
   .container {
     max-width: 540px; } }
+    .top-buffer {
+      margin-top:40px; 
+     }
 
 @media (min-width: 768px) {
   .container {
